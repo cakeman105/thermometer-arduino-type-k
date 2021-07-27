@@ -9,8 +9,8 @@ An adjustable Arduino thermometer that I was "commisioned" to make
   <li>EEPROM for saving temperature values even when Arduino is off</li>
 </ul>
 
-<br><b>Schematics</b><br>
+<b>Schematics</b><br>
 There are schematics enclosed in this repository. In my case, I used an LED as my load but feel free to add a relay or MOSFET to control something more high power.
 
-<br><b>Usage</b><br>
+<b>Usage</b><br>
 Make sure the thermocouple is connected properly, otherwise the Arduino will display random values. To set a temperature limit, press both buttons at the same time, wait 5 seconds until the display shows the default value of 100. Then, adjust the temperature in increments of five (min. 0 degrees C, max 995 degrees C). To save the value, press both buttons at the same time and wait 5 seconds. The value is stored into the EEPROM of the Arduino, so there's no need to set it every time you power the circuit.
